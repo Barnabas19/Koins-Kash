@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Koins&Kash</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+    <link rel="stylsheet" type="text/css" media="screen" href="./css/dashboard.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css">
+
+    <!--Bootstrap Core JS-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/main.js'></script>
+    <script src="js/dashboard.js"></script>
+
+</head>
+
+<body class="container-fluid">
+    <div class="header w-100">
+        <div class=" d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
+            <nav class="my-2 my-md-0 mr-md-2 ml-auto">
+                <a class="p-2 text-dark" href="#">Blog</a>
+                <a class="p-2 text-dark" href="#">About Us</a>
+                <a class="p-2 text-dark" href="affiliate.html">Affiliate</a>
+            </nav>
+        </div>
+
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+            <h1 class="display"><span style="color:  #351296;">Affiliate Dashboard</span></h1>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-dark flex-md-nowrap p-0 shadow" style="background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);">
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index.html" style="color: #351296; font-weight: bolder;">KOINSANDKASH</a>
+        <button class="navbar-toggler position-relative d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon" style="background-color: #351296;"></span>
+        </button>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="btn btn-lg logIn p-2 m-2" href="LogIn.html" role="button" style="background-color: #351296; color: white;">Sign Out</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class=" sidebar-sticky pt-3">
+                    <ul class="nav flex-column" style="font-weight: bolder;">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="affiliate.html">
+                                <span data-feather="home"></span> Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="commisions.html">
+                                <span data-feather="file"></span> Commissions
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="clicks.html">
+                                <span data-feather="shopping-cart"></span> clicks <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Payments.html">
+                                <span data-feather="users"></span> Payments
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="link.html">
+                                <span data-feather="bar-chart-2"></span> Generate Link
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="settings.html">
+                                <span data-feather="layers"></span> Settings
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <header class="entry-header ast-no-thumbnail ast-no-meta">
+
+
+                    <h1 class="entry-title" itemprop="headline" style="font-style: inherit; color: #351296;">Clicks</h1>
+                </header>
+                <!-- .entry-header -->
+
+                <div class="entry-content clear" itemprop="text">
+
+
+
+                    <div class="yith-wcaf yith-wcaf-commissions woocommerce">
+
+
+
+                        <div class="left-column full-width">
+
+                            <div class="filters">
+                                <form>
+                                    <div class="filters-row">
+                                        <input type="hidden" class="product-search wc-product-search" name="product_id" data-placeholder="Product:" value="" data-selected="">
+                                        <p class="m-0" style="font-weight: bolder; color: #351296;">From:</p>
+                                        <input type="date" name="from" id="inputfrom" class="form-control" placeholder="From:" value="" required="required" title="from:">
+
+                                        <p class="m-0" style="font-weight: bolder; color: #351296;">To:</p>
+                                        <input type="date" name="to" id="inputto" class="form-control" placeholder="To:" value="" required="required" title="to:"><br>
+
+                                        <label for="per_page" class="per-page" style="font-weight: bolder; color: #351296;">
+                                                  Items per page:						<input max="100" min="1" step="1" type="number" name="per_page" value="10" style="height: 50px;"/>
+                                        </label>
+                                    </div>
+                                    <div class="button-row">
+                                        <button type="submit" class="btn btn" style="background-color: #351296; color: aliceblue;">Filter</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <table class="shop_table table table-striped table-sm">
+                                <thead>
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                            <th>Link</th>
+                                            <th>Origin</th>
+                                            <th>Origin Base</th>
+                                        </tr>
+                                    </thead>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="empty-set m-auto" colspan="7">Sorry! There are no registered clicks yet</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                </div>
+                <!-- .entry-content .clear -->
+
+            </main>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img src="img/Propify.png" style=" margin-right: 10px;">
+            </div>
+            <div class="col-4 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="muted" href="#">Cool stuff</a></li>
+                    <li><a class="muted" href="#">Random feature</a></li>
+                    <li><a class="muted" href="#">Team feature</a></li>
+
+                </ul>
+            </div>
+            <div class="col-4 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="muted" href="#">Resource</a></li>
+                    <li><a class="muted" href="#">Resource name</a></li>
+                    <li><a class="muted" href="#">Another resource</a></li>
+                </ul>
+            </div>
+            <div class="col-4 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="muted" href="#">Business</a></li>
+                    <li><a class="muted" href="#">Education</a></li>
+                    <li><a class="muted" href="#">Government</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer  mt-auto my-auto row container-fluid">
+            <div class="col-5" style="margin-right: 0px;">
+
+            </div>
+            <div class="" style="margin-right: 0px;">
+                <a href=" "><img src="img/phone.png" alt="Home Logo" class="social-icons" style="width: 35px;"></a>
+
+            </div>
+            <div class="">
+                <a href=" "><img src="img/mail.png" alt="whatsapp Logo" class="social-icons" style="width: 35px;"></a>
+
+            </div>
+            <div class="">
+                <a href=" "><img src="img/facebook.png" alt="whatsapp Logo" class="social-icons" style="width: 35px;"></a>
+
+            </div>
+            <div class="">
+                <a href=" "><img src="img/twitter.png" alt="Profile Logo" class="social-icons" style="width: 35px;"></a>
+
+            </div>
+        </div>
+        <p style="text-align: center; font-weight: bolder;">&copy; 2020 KoinsandKash &#8211; Real Estate Investment, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+    </script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+</body>
+
+</html>
