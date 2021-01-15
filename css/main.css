@@ -19,7 +19,12 @@ body {
 
 .cards {
     padding: 50px;
-    width: 100%;
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
 }
 
 #space1 {
@@ -27,7 +32,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    width: 200px;
     border-top-left-radius: 500px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -59,7 +63,7 @@ body {
 }
 
 .featurette {
-    padding: 100px;
+    padding: 1px;
 }
 
 .space1 {
@@ -116,5 +120,11 @@ body {
 @media (min-width: 768px) {
     html {
         font-size: 16px;
+    }
+    body {
+        width: fit-content;
+    }
+    .cards {
+        margin: 20px;
     }
 }

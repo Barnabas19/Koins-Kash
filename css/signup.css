@@ -268,7 +268,7 @@ iframe {
 }
 
 .login100-more::before {
-    content: "You are one step away from being a part of this family";
+    content: "";
     text-align: center;
     display: block;
     position: absolute;

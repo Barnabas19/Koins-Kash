@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="Stylesheet" href="./css/dashboard.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="toggle-btn" onclick="toggleSidebar()">
+            <span class="span"></span>
+            <span class="span"></span>
+            <span class="span"></span>
+        </div>
+        <aside class="aside-left">
+            <ul class="aside-left__list">
+                <li class="aside-left__list__item" onclick="location.href='';"><span>icon</span>Overview</li>
+                <li class="aside-left__list__item" onclick="location.href='';"><span>icon</span>Wallets</li>
+                <li class="aside-left__list__item" onclick="location.href='';"><span>icon</span>Investment</li>
+                <li class="aside-left__list__item" onclick="location.href='';"><span>icon</span>Transfers</li>
+                <li class="aside-left__list__item" onclick="location.href='';"><span>icon</span>P2P Trade</li>
+            </ul>
+        </aside>
+        <div class="main">
+            <section class="main__icons">ICONS AND AVATAR GO HERE</section>
+
+            <h1 class="main__heading">Wallets</h1>
+            <a href="createwallet.html" style="text-decoration: none;">
+                <p style="font-size: smaller; color: black; font-weight: bold;">Create Wallet</p>
+            </a>
+            <section class="main__section2">
+                <h2 class="main__section2__heading">Wallet Details</h2>
+                <section class="main__section2__section"></section>
+                <section class="main__section2__section"></section>
+                <section class="main__section2__section"></section>
+            </section>
+            <section class="main__section3">
+                <h2 class="main__section3__heading">Paymets</h2>
+                <section class="aside-right__section1"></section>
+            </section>
+            </section>
+        </div>
+        <aside class="aside-right">
+            <section class="aside-right__icons">ICONS AND AVATAR GO HERE</section>
+
+            <section class="aside-right__section2">
+                <h2 class="aside-right__section2__heading">Recommended Articles</h2>
+                <section class="caption">
+                    <img src="img/crypto.jpeg" alt="image" />
+                    <span><i>Ijaola David</i> - Nov 20, 2020</span>
+                    <p>Got Crypto? Read free guide to investing.</p>
+                </section>
+            </section>
+        </aside>
+    </div>
+    <script src="./js/dashboard.js"></script>
+</body>
+
+</html>
