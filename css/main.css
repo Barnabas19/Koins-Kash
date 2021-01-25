@@ -159,6 +159,15 @@ body {
 }
 
 
+/*ABOUT US*/
+
+.text {
+    color: transparent;
+    font-size: 2px;
+    width: 100px;
+}
+
+
 /*FOOTER*/
 
 .footer {
