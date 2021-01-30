@@ -16,7 +16,7 @@ html,
 /* DEFAULT STYLES */
 .wrapper{
     width: 100%;
-    background: rgb(241, 239, 239);
+    background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
     display: flex;
     flex-flow: row wrap;
     align-items: stretch;
@@ -50,7 +50,7 @@ html,
         padding-left: 5px;
         &__icons{
             width: 100%;
-            background: rgb(241, 239, 239);
+            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
             height: 30px;
             font-size: 10px;
         }
@@ -58,14 +58,14 @@ html,
             width: 100%;
             margin-left: 3px;
             text-align: left;
-            color: purple;
-            background: rgb(241, 239, 239);
+            color: #351296;
+            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
             font-size: 18px;
             margin-top: 10px;
         }
         &__section1{
             width: 100%;
-            background: purple;
+            background: #351296;
             height: 100px;
             padding-top: 60px;
             padding-left: 2px;
@@ -82,14 +82,14 @@ html,
             display: flex;
             flex-flow: row wrap;
             align-items: stretch;
-            background: rgb(241, 239, 239);
+            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
             margin-top: 15px;
             margin-bottom: 20px;
             &__heading{
                 flex: 100% 0 0;
                 font-size: 13px;
                 text-align: left;
-                color: purple;
+                color: #351296;
                 margin-bottom: 10px;
             }
             &__section{
@@ -104,13 +104,13 @@ html,
         &__section3{
             width: 100%;
             &__heading{
-                color: purple;
+                color: #351296;
                 font-size: 13px;
                 text-align: left;
             }
             &__section{
                 width: 100%;
-                border-left: 5px solid purple;
+                border-left: 5px solid #351296;
                 background: white;
                 padding-top: 1px;
                 padding-bottom: 1px;
@@ -140,9 +140,9 @@ html,
                         }
                     }
                     .div:first-child{
-                        background: rgb(241, 239, 239);
+                        background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
                         border-radius: 3px;
-                        color: purple;
+                        color: #351296;
                         .text{
                             opacity: 1.0;
                         }
@@ -153,7 +153,8 @@ html,
                         padding-top: 5px;
                     }
                     .div:nth-child(4){
-                        color: rgb(48, 190, 5);
+                        color: green;
+                        filter: brightness(200%);
                         .text{
                             opacity: 1.0;
                         }
@@ -170,32 +171,84 @@ html,
     }
     .aside-right{
         flex: 100% 0 0;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
         padding-top: 5px;
         &__icons{
             display: none;
         }
         &__section1{
-            flex: 50%  0 0;
-            margin-left: 2%;
-            height: 400px;
+            width: 80%;
+            margin-left: 11%;
+            margin-right: 9%;
             background: white;
-            border-left: 5px solid purple;
+            border-left: 5px solid #351296;
             box-shadow: 0 4px 6px rgb(66, 66, 66);
-            margin-top: 5px;
+            margin-top: 30px;
+            &__row{
+                width: 100%;
+                height: 50px;
+                margin-top: 10px;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: stretch;
+                .div:first-child{
+                    flex: 20% 0 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                }
+                .div:nth-child(2){
+                    flex: 40% 0 0;
+                    padding-top: 12px;
+                    margin-left: 10%;
+                    p{
+                        width: 90%;
+                        text-align: left;
+                        margin-left: 5%;
+                        margin-right: 5%;
+                    }
+                    .text:first-child{
+                        font-weight: 900;
+                        opacity: 0.65;
+                        font-size: 14px;
+
+                    }
+                    .text:nth-child(2){
+                        font-size: 11px;
+                        font-weight: 700;
+                        opacity: 0.5;
+                    }
+                }
+                .div:nth-child(3){
+                    flex: 30% 0 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 14px;
+                    color: green;
+                    filter: brightness(200%);
+                    font-weight: 700;
+                }
+            }
+            &__row:first-child,
+            &__row:nth-child(5),
+            &__row:last-child{
+                .div:last-child{
+                    color: red;
+                }
+            }
         }
         &__section2{
-            flex: 44% 0 0;
-            margin-left: 2%;
-            background: rgb(241, 239, 239);
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
             margin-top: 50px;
             padding-bottom: 5px;
             &__heading{
                 width: 100%;
                 text-align: center;
-                color: purple;
+                color: #351296;
                 font-size: 16px;
                 font-weight: 550;
             }
@@ -211,7 +264,7 @@ html,
                     margin: 10px 3.5% 0 3.5%;
                 }
                 span{
-                    color: purple;
+                    color: #351296;
                     font-size: 13px;
                     margin-left: 3.5%;
                     i{
@@ -240,7 +293,7 @@ html,
                 display: block;
                 width: 30px;
                 height: 5px;
-                background: purple;
+                background: #351296;
                 margin-top: 5px;
                 border-radius: 2px;
             }
@@ -272,7 +325,7 @@ html,
 @media only screen and (min-width: 780px){
     .wrapper{
         width: 100%;
-        background: rgb(241, 239, 239);
+        background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
         display: flex;
         flex-flow: row wrap;
         align-items: stretch;
@@ -308,14 +361,14 @@ html,
                 width: 100%;
                 margin-left: 3px;
                 text-align: left;
-                color: purple;
-                background: rgb(241, 239, 239);
+                color: #351296;
+                background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
                 font-size: 18px;
                 margin-top: 10px;
             }
             &__section1{
                 width: 100%;
-                background: purple;
+                background-color:#351296;
                 height: 80px;
                 padding-top: 50px;
                 padding-left: 2px;
@@ -331,14 +384,14 @@ html,
                 display: flex;
                 flex-flow: row wrap;
                 align-items: stretch;
-                background: rgb(241, 239, 239);
+                background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
                 margin-top: 15px;
                 margin-bottom: 20px;
                 &__heading{
                     flex: 100% 0 0;
                     font-size: 13px;
                     text-align: left;
-                    color: purple;
+                    color: #351296;
                     margin-bottom: 10px;
                 }
                 &__section{
@@ -352,14 +405,14 @@ html,
             &__section3{
                 width: 100%;
                 &__heading{
-                    color: purple;
+                    color: #351296;
                     font-size: 13px;
                     text-align: left;
                     margin-top: 50px;
                 }
                 &__section{
                     width: 100%;
-                    border-left: 5px solid purple;
+                    border-left: 5px solid #351296;
                     background: white;
                     .row{
                         width: 100%;
@@ -388,9 +441,9 @@ html,
                             }
                         }
                         .div:first-child{
-                            background: rgb(241, 239, 239);
+                            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
                             border-radius: 3px;
-                            color: purple;
+                            color: #351296;
                             .text{
                                 opacity: 1.0;
                             }
@@ -401,7 +454,8 @@ html,
                             padding-top: 5px;
                         }
                         .div:nth-child(4){
-                            color: rgb(48, 190, 5);
+                            color: green;
+                            filter: brightness(200%);
                             .text{
                                 opacity: 1.0;
                             }
@@ -418,34 +472,35 @@ html,
         }
         .aside-right{
             flex: 30% 0 0;
-            display: flex;
-            flex-flow: row wrap;
-            align-items: stretch;
             padding-top: 5px;
             &__icons{
-                flex: 100% 0 0;
-                background: rgb(241, 239, 239);
+                width: 100%;
+                background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
                 height: 40px;
                 font-size: 10px;
                 display: block;
             }
             &__section1{
-                flex: 96%  0 0;
+                width: 96%;
                 margin-left: 2%;
                 margin-right: 2%;
-                height: 400px;
                 background: white;
-                border-left: 5px solid purple;
+                border-left: 5px solid #351296;
                 margin-top: 0;
+                &__row{
+                    font-size: 5px;
+                    width: 100%;
+                    height: 60px;
+                }
             }
             &__section2{
-                flex: 90% 0 0;
+                width: 90%;
                 margin-left: 2%;
                 margin-right: 8%;
                 margin-top: 20px;
                 &__heading{
                     width: 100%;
-                    color: purple;
+                    color: #351296;
                     margin-top: 20px;
                 }
                 .caption{
