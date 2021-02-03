@@ -16,7 +16,7 @@ html,
 /* DEFAULT STYLES */
 .wrapper{
     width: 100%;
-    background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+    background-color:  rgb(224, 223, 221);
     display: flex;
     flex-flow: row wrap;
     align-items: stretch;
@@ -50,7 +50,7 @@ html,
         padding-left: 5px;
         &__icons{
             width: 100%;
-            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+            background-color:  rgb(224, 223, 221);
             height: 30px;
             font-size: 10px;
         }
@@ -59,7 +59,7 @@ html,
             margin-left: 3px;
             text-align: left;
             color: #351296;
-            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+            background-color:  rgb(224, 223, 221);
             font-size: 18px;
             margin-top: 10px;
         }
@@ -82,7 +82,7 @@ html,
             display: flex;
             flex-flow: row wrap;
             align-items: stretch;
-            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+            background-color:  rgb(224, 223, 221);
             margin-top: 15px;
             margin-bottom: 20px;
             &__heading{
@@ -140,7 +140,7 @@ html,
                         }
                     }
                     .div:first-child{
-                        background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+                        background-color:  rgb(224, 223, 221);
                         border-radius: 3px;
                         color: #351296;
                         .text{
@@ -242,7 +242,7 @@ html,
             width: 50%;
             margin-left: 25%;
             margin-right: 25%;
-            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+            background-color:  rgb(224, 223, 221);
             margin-top: 50px;
             padding-bottom: 5px;
             &__heading{
@@ -325,7 +325,7 @@ html,
 @media only screen and (min-width: 780px){
     .wrapper{
         width: 100%;
-        background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+        background-color:  rgb(224, 223, 221);
         display: flex;
         flex-flow: row wrap;
         align-items: stretch;
@@ -362,7 +362,7 @@ html,
                 margin-left: 3px;
                 text-align: left;
                 color: #351296;
-                background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+                background-color:  rgb(224, 223, 221);
                 font-size: 18px;
                 margin-top: 10px;
             }
@@ -384,7 +384,7 @@ html,
                 display: flex;
                 flex-flow: row wrap;
                 align-items: stretch;
-                background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+                background-color:  rgb(224, 223, 221);
                 margin-top: 15px;
                 margin-bottom: 20px;
                 &__heading{
@@ -441,7 +441,7 @@ html,
                             }
                         }
                         .div:first-child{
-                            background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+                            background-color:  rgb(224, 223, 221);
                             border-radius: 3px;
                             color: #351296;
                             .text{
@@ -475,7 +475,7 @@ html,
             padding-top: 5px;
             &__icons{
                 width: 100%;
-                background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+                background-color:  rgb(224, 223, 221);
                 height: 40px;
                 font-size: 10px;
                 display: block;
