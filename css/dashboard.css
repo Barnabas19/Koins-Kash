@@ -15,7 +15,7 @@ html,
 /* DEFAULT STYLES */
 .wrapper {
   width: 100%;
-  background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+  background-color: #e0dfdd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,7 +69,7 @@ html,
 
 .wrapper .main__icons {
   width: 100%;
-  background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+  background-color: #e0dfdd;
   height: 30px;
   font-size: 10px;
 }
@@ -79,7 +79,7 @@ html,
   margin-left: 3px;
   text-align: left;
   color: #351296;
-  background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+  background-color: #e0dfdd;
   font-size: 18px;
   margin-top: 10px;
 }
@@ -112,7 +112,7 @@ html,
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+  background-color: #e0dfdd;
   margin-top: 15px;
   margin-bottom: 20px;
 }
@@ -206,7 +206,7 @@ html,
 }
 
 .wrapper .main__section3__section .row .div:first-child {
-  background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+  background-color: #e0dfdd;
   border-radius: 3px;
   color: #351296;
 }
@@ -348,7 +348,7 @@ html,
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-  background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+  background-color: #e0dfdd;
   margin-top: 50px;
   padding-bottom: 5px;
 }
@@ -440,7 +440,7 @@ html,
 @media only screen and (min-width: 780px) {
   .wrapper {
     width: 100%;
-    background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+    background-color: #e0dfdd;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -490,7 +490,7 @@ html,
     margin-left: 3px;
     text-align: left;
     color: #351296;
-    background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+    background-color: #e0dfdd;
     font-size: 18px;
     margin-top: 10px;
   }
@@ -519,7 +519,7 @@ html,
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+    background-color: #e0dfdd;
     margin-top: 15px;
     margin-bottom: 20px;
   }
@@ -602,7 +602,7 @@ html,
     margin: 10px 10% 10px 10%;
   }
   .wrapper .main__section3__section .row .div:first-child {
-    background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+    background-color: #e0dfdd;
     border-radius: 3px;
     color: #351296;
   }
@@ -636,7 +636,7 @@ html,
   }
   .wrapper .aside-right__icons {
     width: 100%;
-    background-color: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+    background-color: #e0dfdd;
     height: 40px;
     font-size: 10px;
     display: block;
