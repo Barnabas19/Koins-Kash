@@ -28,7 +28,7 @@ body {
 }
 
 #space1 {
-    background-image: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #d9e9fa);
+    background-image: url("../img/Invest\ In\ Crypto\ \(31\).png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
@@ -39,8 +39,7 @@ body {
 }
 
 #space2 {
-    background-image: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
-    background-size: cover;
+    background-image: url("../img/Invest\ In\ Crypto\ \(32\).png");
     background-repeat: no-repeat;
     height: 300px;
     width: 200px;
@@ -51,7 +50,7 @@ body {
 }
 
 #space3 {
-    background-image: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+    background-image: url("../img/Invest\ In\ Crypto\ \(19\).png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
@@ -93,7 +92,7 @@ body {
 }
 
 #space6 {
-    background-image: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1);
+    background-image: linear-gradient(rgba(203, 237, 255, 0.856), 80%, #cbdef1) url("../img/crypto.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;

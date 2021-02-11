@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Create Wallet</title>
+    <title>Pay-For-GOtv</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -29,42 +29,36 @@
         <div class="container-login100">
             <div class="wrap-login100">
                 <div class="login100-pic js-tilt" data-tilt>
-                    <a href="#"><img src="img/crypto.jpeg" alt="IMG" style="width: 500px; height: 100px;"></a>
+                    <a href="#"><img src="img/GOtv.jpeg" alt="IMG" style="width: 500px; height: 100px;"></a>
                 </div>
 
-                <form class="login100-form validate-form" data-cc-on-file="false" data-stripe-publishable-key="pk_bQQaTxnaZlzv4FnnuZ28LFHccVSaj" id="payment-form" method="post">
+                <form class="login100-form validate-form">
                     <span class="login100-form-title">
-						Create Wallet
+						Pay For GOtv
 					</span>
 
-                    <div class="wrap-input100 validate-input">
-                        <div class='col-xs-12 form-group required'>
-                            <label class='control-label'>Wallet Type</label>
-                            <input class='form-control' size='4' type='text'>
-                        </div>
+                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                        <input class="input100" type="text" name="email" placeholder="Email">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
                     </div>
 
-                    <div class="wrap-input100 validate-input">
-                        <div class='col-xs-12 form-group required'>
-                            <label class='control-label'>Custom Name</label>
-                            <input autocomplete='off' class='form-control card-number' size='20' type='text'>
-                        </div>
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        <input class="input100" type="password" name="pass" placeholder="Password">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
                     </div>
-                    <div class="wrap-input100 validate-input">
-                        <div class='col-xs-4 form-group cvc required'>
-                            <label class='control-label'>Enter Wallet Pin</label>
-                            <input autocomplete='off' class='form-control card-cvc' placeholder='xxxx' size='4' type='text'>
-                        </div>
-                        <div class='col-xs-4 form-group expiration required'>
-                            <label class='control-label'>Confirm Wallet Pin</label>
-                            <input class='form-control card-expiry-month' placeholder='xxxx' size='4' type='text'>
-                        </div>
-                    </div>
+
                     <div class="container-login100-form-btn">
                         <button class="login100-form-btn">
 							Submit
 						</button>
                     </div>
+
                 </form>
             </div>
         </div>

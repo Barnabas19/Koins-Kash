@@ -34,30 +34,40 @@
 
                 <form class="login100-form validate-form" data-cc-on-file="false" data-stripe-publishable-key="pk_bQQaTxnaZlzv4FnnuZ28LFHccVSaj" id="payment-form" method="post">
                     <span class="login100-form-title">
-						Create Wallet
+						Make Investment
 					</span>
 
                     <div class="wrap-input100 validate-input">
                         <div class='col-xs-12 form-group required'>
-                            <label class='control-label'>Wallet Type</label>
+                            <label class='control-label'>Name on Card</label>
                             <input class='form-control' size='4' type='text'>
                         </div>
                     </div>
 
                     <div class="wrap-input100 validate-input">
                         <div class='col-xs-12 form-group required'>
-                            <label class='control-label'>Custom Name</label>
+                            <label class='control-label'>Card Number</label>
                             <input autocomplete='off' class='form-control card-number' size='20' type='text'>
                         </div>
                     </div>
                     <div class="wrap-input100 validate-input">
                         <div class='col-xs-4 form-group cvc required'>
-                            <label class='control-label'>Enter Wallet Pin</label>
-                            <input autocomplete='off' class='form-control card-cvc' placeholder='xxxx' size='4' type='text'>
+                            <label class='control-label'>CVC</label>
+                            <input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' size='4' type='text'>
                         </div>
                         <div class='col-xs-4 form-group expiration required'>
-                            <label class='control-label'>Confirm Wallet Pin</label>
-                            <input class='form-control card-expiry-month' placeholder='xxxx' size='4' type='text'>
+                            <label class='control-label'>Expiration</label>
+                            <input class='form-control card-expiry-month' placeholder='MM' size='2' type='text'>
+                        </div>
+                        <div class='col-xs-4 form-group expiration required'>
+                            <label class='control-label'> </label>
+                            <input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
+                        </div>
+                    </div>
+                    <div class="wrap-input100 validate-input">
+                        <div class='col-xs-12 form-group required'>
+                            <label class='control-label'>Enter Card Pin</label>
+                            <input autocomplete='off' class='form-control card-number' size='4' type='text'>
                         </div>
                     </div>
                     <div class="container-login100-form-btn">
